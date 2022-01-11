@@ -1,0 +1,17 @@
+/*----------About page style----------*/
+.two-column-profile{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-content{
+    padding: 40px;
+}
+
+.profile-content h1 {
+    color: #5b6d46;
+}
+
+.profile-content p {
+    color: #5b6d46;
+}

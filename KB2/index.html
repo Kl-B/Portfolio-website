@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Klara Bergman</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class ="header">
+        <nav>
+            <a href="index.html"><img src="images/origami-155168_640.png"></a>
+            <div class="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()" id="navLinks"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">PROJECTS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Klara Bergman</h1>    
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Unde vel mollitia sequi, sapiente repudiandae provident, 
+                voluptates debitis,<br> in architecto quisquam nam? 
+                Repellendus distinctio temporibus hic expedita. 
+                Doloribus natus tempora ipsum!</p>
+            <a href="" class="button">Show More</a>       
+        </div>
+    </section>
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Iure error vero atque corrupti laboriosam aspernatur dolor nulla, 
+            perferendis cum assumenda dolore fugit voluptas! 
+            Sed nostrum ut praesentium assumenda quae architecto?
+        </p>  
+        
+        <div class="row">
+            <div class="col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque omnis ducimus aut, porro natus minus doloribus quis, id optio odit nemo fugit beatae vitae nulla obcaecati fugiat eos reiciendis repellat.</p>
+            </div>
+            <div class="col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque omnis ducimus aut, porro natus minus doloribus quis, id optio odit nemo fugit beatae vitae nulla obcaecati fugiat eos reiciendis repellat.</p>
+            </div>
+            <div class="col">
+                <h3>Post-Graduation</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque omnis ducimus aut, porro natus minus doloribus quis, id optio odit nemo fugit beatae vitae nulla obcaecati fugiat eos reiciendis repellat.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="Campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus modi consequatur iste quo ut placeat sed fugiat expedita id facilis nobis et aut nisi deserunt similique, vel sequi dignissimos vero?</p>
+        <div class="row">
+            <div class="campcol">
+                <img src="images/mark-x-U9W4T5pBHXQ-unsplash.jpg">
+                <div class="layer">
+                    <h3>London</h3>
+                </div>
+            </div>
+            <div class="campcol">
+                <img src="images/mark-x-U9W4T5pBHXQ-unsplash.jpg">
+                <div class="layer">
+                    <h3>New York</h3>
+                </div>
+            </div>
+            <div class="campcol">
+                <img src="images/mark-x-U9W4T5pBHXQ-unsplash.jpg">
+                <div class="layer">
+                    <h3>Washington</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

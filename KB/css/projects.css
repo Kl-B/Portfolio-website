@@ -1,0 +1,34 @@
+#triangle {
+    background-color: #eff2ec;
+    clip-path: polygon(0 100%, 100% 100%, 0 0);
+    width: 100%;
+    height: 200px;
+}
+#square {
+    float:inline-start;
+    background-color: #eff2ec;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 0px;
+}
+
+.greeting h2{
+    font-size: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 50px;
+    text-align: center;
+    color: #272f1e;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Nunito', sans-serif;
+}
+
+.text-center {
+    padding-top: 80px;
+} 
+
+footer {
+    background-color: #eff2ec;
+    padding: none !important;
+    padding-top: 0px !important;
+}

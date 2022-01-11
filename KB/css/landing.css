@@ -1,0 +1,77 @@
+/*----------Hero Image style----------*/
+.hero-image {
+    position: static;
+    width: 100%;
+    height: 50vh;
+    background: url(../images/elena-zalivochkina-0vbFpmOqtL8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+  
+/* Text in the center of the image */
+.hero-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    color: #eff2ec;
+    font-size: xx-large;
+    text-align: center;
+}
+
+/*----------grid style----------*/
+
+/*three columns, all full width wintin themselves*/
+.content-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*position relative for flexibility, to use later when formatting text*/
+.content-item{
+    position: relative;
+}
+/*position images*/
+.content-img-background{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*position to have text sit on top of background*/
+.img-text{
+    background: transparent;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-weight: 700;
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    transition: 1s;
+}
+
+.img-text:hover{
+    background: #272f1e;
+}
+/*text while not hovering*/
+.img-text .text{
+    transition: 1s;
+    color: transparent;
+}
+/*Text while hovering*/
+.img-text:hover .text{
+    font-weight: 700;
+    color: #eff2ec;
+}
+
+p {
+    font-size: 22px;
+}

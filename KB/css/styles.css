@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap%22");
+/*--------Master Style----------*/
+*{
+    margin: 0%;
+}
+
+/*Body style*/
+body{
+    box-sizing: border-box;
+    min-height: 100vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+

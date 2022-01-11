@@ -1,5 +1,5 @@
 /*----------Contact page style----------*/
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+
 .two-column-contact{
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -2,9 +2,20 @@
 .text-muted{
     margin-left: 40px;
 }
-.city{
-    margin-left: 40vh;
-}
+
 .bi {
    margin-right: 40px;
+}
+
+@media (max-width: 800px) {
+  
+    footer {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    footer ul{
+        padding-top: 20px;
+    }
+
 }

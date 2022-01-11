@@ -34,3 +34,23 @@ a:hover{
     text-decoration: none;
     color: black;
 }
+
+@media (max-width: 1200px) {
+    .contact-content{
+        padding: 0%;
+    }
+
+    .contact-us h3{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .two-column-contact{
+        margin: 0px;
+        grid-template-columns: auto;
+    }
+
+    .profile-image img{
+        width: 100%;
+    }
+}

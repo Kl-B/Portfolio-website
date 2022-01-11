@@ -15,3 +15,33 @@
 .profile-content p {
     color: #5b6d46;
 }
+
+
+
+
+@media (max-width: 1200px) {
+    .profile-content{
+        padding: 0%;
+    }
+
+    .profile-content h1{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .profile-content p{
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .two-column-profile{
+        margin: 0px;
+        grid-template-columns: auto;
+    }
+
+    .contact-image img{
+        width: 100%;
+    }
+}
+

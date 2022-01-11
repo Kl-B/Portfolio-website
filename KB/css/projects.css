@@ -32,3 +32,10 @@ footer {
     padding: none !important;
     padding-top: 0px !important;
 }
+
+p {
+    text-align: center;
+    color: #272f1e;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 50px;
+}

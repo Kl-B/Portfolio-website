@@ -1,11 +1,13 @@
 /*----------Footer style----------*/
 .text-muted{
     margin-left: 40px;
+    color: #5b6d46 !important;
 }
 
 .bi {
    margin-right: 40px;
 }
+
 
 @media (max-width: 800px) {
   

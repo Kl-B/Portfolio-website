@@ -12,15 +12,54 @@
     margin-bottom: 0px;
 }
 
-.greeting h2{
-    font-size: 50px;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 50px;
+.container h2{
     text-align: center;
-    color: #272f1e;
-    text-shadow: 2px 2px 5px black;
-    font-family: 'Nunito', sans-serif;
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-1 {
+  --color-1: #9c5449;
+  --color-2: #bfcbb3;
+  --color-3: #c68e86;
+}
+
+.title-2 {
+  --color-1: #DBAD4A;
+  --color-2: #8ca276;
+  --color-3: #73895d;
+}
+
+.title-3 {
+  --color-1: #8ca276;
+  --color-2: #c68e86;
+  --color-3: #8ca276;
+}
+
+.title-4 {
+  --color-1: #333d29;
+  --color-2: #9c5449;
+  --color-3: #c68e86;
+}
+
+.title-5 {
+    --color-1: #bfcbb3;
+    --color-2: #9c5449;
+    --color-3: #c68e86;
+  }
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
 }
 
 .text-center {

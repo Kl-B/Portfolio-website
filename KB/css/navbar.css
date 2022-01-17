@@ -2,6 +2,7 @@
 
 .navbar p{
     margin-top: 20px;
+    color: #5b6d46;
 }
 
 .navbar img{
@@ -17,4 +18,13 @@
     font-size: 23px;
     font-family: 'Nunito', sans-serif;
     padding: 10px;
+}
+
+.nav-item a {
+    color: #5b6d46 !important;
+}
+
+.nav-item a:hover{
+    color: #8b4b41 !important;
+    text-decoration: underline 1px #8b4b41;
 }

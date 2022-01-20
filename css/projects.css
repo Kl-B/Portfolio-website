@@ -1,21 +1,21 @@
 #triangle {
-    background-color: #eff2ec;
-    clip-path: polygon(0 100%, 100% 100%, 0 0);
-    width: 100%;
-    height: 200px;
+  background-color: #eff2ec;
+  clip-path: polygon(0 100%, 100% 100%, 0 0);
+  width: 100%;
+  height: 200px;
 }
 #square {
-    float:inline-start;
-    background-color: #eff2ec;
-    width: 100%;
-    height: 400px;
-    margin-bottom: 0px;
+  float: inline-start;
+  background-color: #eff2ec;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 0px;
 }
 
-.container h2{
-    text-align: center;
-    padding-top: 50px;
-    font-size: 50px;
+.container h2 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 50px;
 }
 
 .title-word {
@@ -29,7 +29,7 @@
 }
 
 .title-2 {
-  --color-1: #DBAD4A;
+  --color-1: #dbad4a;
   --color-2: #8ca276;
   --color-3: #73895d;
 }
@@ -47,34 +47,48 @@
 }
 
 .title-5 {
-    --color-1: #bfcbb3;
-    --color-2: #9c5449;
-    --color-3: #c68e86;
-  }
+  --color-1: #bfcbb3;
+  --color-2: #9c5449;
+  --color-3: #c68e86;
+}
 
 @keyframes color-animation {
-  0%    {color: var(--color-1)}
-  32%   {color: var(--color-1)}
-  33%   {color: var(--color-2)}
-  65%   {color: var(--color-2)}
-  66%   {color: var(--color-3)}
-  99%   {color: var(--color-3)}
-  100%  {color: var(--color-1)}
+  0% {
+    color: var(--color-1);
+  }
+  32% {
+    color: var(--color-1);
+  }
+  33% {
+    color: var(--color-2);
+  }
+  65% {
+    color: var(--color-2);
+  }
+  66% {
+    color: var(--color-3);
+  }
+  99% {
+    color: var(--color-3);
+  }
+  100% {
+    color: var(--color-1);
+  }
 }
 
 .text-center {
-    padding-top: 80px;
-} 
+  padding-top: 80px;
+}
 
 footer {
-    background-color: #eff2ec;
-    padding: none !important;
-    padding-top: 0px !important;
+  background-color: #eff2ec;
+  padding: none !important;
+  padding-top: 0px !important;
 }
 
 p {
-    text-align: center;
-    color: #272f1e;
-    font-family: 'Nunito', sans-serif;
-    padding-top: 20px;
+  text-align: center;
+  color: #272f1e;
+  font-family: "Nunito", sans-serif;
+  padding-top: 20px;
 }

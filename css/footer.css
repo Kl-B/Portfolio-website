@@ -10,11 +10,14 @@
 
 @media (max-width: 800px) {
   footer {
-    justify-content: center;
     flex-direction: column;
   }
 
-  footer ul {
+  footer .nav {
     padding-top: 20px;
+  }
+
+  footer .text-muted {
+    margin-left: 0%;
   }
 }

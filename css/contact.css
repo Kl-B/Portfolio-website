@@ -1,73 +1,57 @@
 /*----------Contact page style----------*/
 
-@keyframes bgColor {
-    0%{
-        background: #73895d;
-    }
-    20%{
-        background: #8ca276;
-    }
-    40%{
-        background: #bfcbb3;
-    }
-    60%{
-        background: #c68e86;
-    }
-    80%{
-        background: #9c5449;
-    }
-    100%{
-        background: #9c5449;
-    }
+.overlay {
+  height: 700px;
+  background-color: #eff2ec;
 }
 
-.row{
-    animation: bgColor infinite linear 5s;
-    height: 700px;
-    background-image: linear-gradient(-90deg, #73895d 50%, #333d29 50%);
+.col-md-9 {
+  padding: 50px;
 }
 
-.two-column-contact{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.two-column-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-
 
 .contact-content p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-.address{
-    margin: 40px;
-    font-size: 20px;
+.address {
+  margin: 40px;
+  font-size: 20px;
 }
 
-a{
-    text-decoration: none;
-    color: black
+a {
+  text-decoration: none;
+  color: black;
 }
 
-a:hover{
-    text-decoration: none;
-    color: white;
+a:hover {
+  text-decoration: none;
+  color: white;
 }
 
+.two {
+  background: linear-gradient(
+    90deg,
+    #eff2ec,
+    #bfcbb3,
+    #8ca276,
+    #73895d,
+    #9c5449,
+    #9c5449,
+    #c68e86
+  );
+}
 @media (max-width: 1200px) {
-    .contact-content{
-        padding: 0%;
-    }
+  .contact-content {
+    padding: 0%;
+  }
 
-    .contact-us h3{
-        text-align: center;
-        padding-top: 20px;
-    }
-
-    .two-column-contact{
-        margin: 0px;
-        grid-template-columns: auto;
-    }
-
-    .profile-image img{
-        width: 100%;
-    }
+  .contact-us h3 {
+    text-align: center;
+    padding-top: 20px;
+  }
 }

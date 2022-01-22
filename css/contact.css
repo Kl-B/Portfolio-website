@@ -15,7 +15,7 @@
 }
 
 .contact-content p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .address {
@@ -30,7 +30,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: white;
+  color: #73895d;
 }
 
 .two {
@@ -53,5 +53,16 @@ a:hover {
   .contact-us h3 {
     text-align: center;
     padding-top: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-us h3 {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .contact-us p {
+    font-size: 15px;
   }
 }

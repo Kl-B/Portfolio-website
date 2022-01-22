@@ -3,6 +3,7 @@
 .navbar p {
   margin-top: 20px;
   color: #5b6d46;
+  font-size: 15px;
 }
 
 .navbar img {
@@ -15,7 +16,7 @@
 }
 
 .nav-item {
-  font-size: 23px;
+  font-size: 15px;
   font-family: "Nunito", sans-serif;
   padding: 10px;
 }
@@ -31,7 +32,7 @@
 
 @media (max-width: 440px) {
   .navbar p {
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .navbar img {

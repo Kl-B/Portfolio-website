@@ -81,6 +81,7 @@
 }
 
 footer {
+  position: relative;
   background-color: #eff2ec;
   padding: none !important;
   padding-top: 0px !important;
